@@ -64,7 +64,8 @@ initialize(){
 
 initialize
 
+echo ""
 Player1=0
-echo "Player 1 at: $Player1"
+echo "Player 1: $Player1"
 dice=$(($((RANDOM%6))+1))
-echo $dice
+echo "Dice: $dice"
