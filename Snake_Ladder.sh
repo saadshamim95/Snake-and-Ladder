@@ -97,5 +97,9 @@ do
 	then
 		Player1=0
 	fi
+	if((Player1>100))
+	then
+		Player1=$((Player1-dice))
+	fi
 	echo "Player1: $Player1"
 done
