@@ -89,6 +89,7 @@ checkOptions(){
 	fi
 }
 
+count=0
 while((Player1<100))
 do
 	rollDice
@@ -102,4 +103,6 @@ do
 		Player1=$((Player1-dice))
 	fi
 	echo "Player1: $Player1"
+	count=$((count+1))
 done
+echo "Total number of times Dice rolled: $count"
