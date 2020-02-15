@@ -27,5 +27,9 @@ while((Player1<100))
 do
 	rollDice
 	checkOptions
+	if((Player1<0))
+	then
+		Player1=0
+	fi
 	echo "Player1: $Player1"
 done
